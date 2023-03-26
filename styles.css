@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Space+Mono:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 60vh;
+}
+.design{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1.2rem;
+    background-image: url(/Images/background-image.jpg);
+    height: 60vh;
+    background-size: cover;
+}
+.tag{
+    background-color: #560c56;
+    margin-bottom: 18rem;
+    margin-left: -1rem;
+}
+.tag h2{
+    color: white;
+    font-size: 0.9rem;
+    padding: 0.2rem 0.5rem
+}
+.menu_bar {
+    display: block;
+}
+.menu_bar .hamburger {
+    margin-bottom: 18rem;
+    width: 1.82rem;
+    height: 1.19rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.menu_bar .hamburger div{
+    width: 100%;
+    height: 3px;
+    background-color:white;
+}
+.words{
+    position: absolute;
+    color: white;
+    top: 10rem;
+    left: 6rem;
+    font-family: 'Space Mono', monospace;
+}
+.in_img img:nth-child(1){
+    position: absolute;
+    width: 8rem;
+    left: 7.5rem;
+    top: 2rem;
+}
+.in_img img:nth-child(2){
+    position: absolute;
+    width: 4rem;
+    left: 9.5rem;
+    top: 4rem;
+}
+.in_img img:nth-child(3){
+    position: absolute;
+    width: 7.5rem;
+    left: 8rem;
+    top: 7rem;
+}
+
+/* Flex Section */
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
