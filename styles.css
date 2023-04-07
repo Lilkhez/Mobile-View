@@ -1,76 +1,157 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Space+Mono:ital@1&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
-}
-header{
-    height: 60vh;
-}
-.design{
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
-    padding-inline: 1.2rem;
-    background-image: url(/Images/background-image.jpg);
-    height: 60vh;
-    background-size: cover;
-}
-.tag{
-    background-color: #560c56;
-    margin-bottom: 18rem;
-    margin-left: -1rem;
-}
-.tag h2{
-    color: white;
-    font-size: 0.9rem;
-    padding: 0.2rem 0.5rem
-}
-.menu_bar {
-    display: block;
-}
-.menu_bar .hamburger {
-    margin-bottom: 18rem;
-    width: 1.82rem;
-    height: 1.19rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-.menu_bar .hamburger div{
-    width: 100%;
-    height: 3px;
-    background-color:white;
-}
-.words{
-    position: absolute;
-    color: white;
-    top: 10rem;
-    left: 6rem;
+    box-sizing: border-box;
     font-family: 'Space Mono', monospace;
+    ;
 }
-.in_img img:nth-child(1){
+
+header {
+    height: 60vh;
+}
+
+.design {
+    background-image: url('./Images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.in_img img:nth-child(1) {
     position: absolute;
-    width: 8rem;
+    width: 10rem;
     left: 7.5rem;
     top: 2rem;
 }
-.in_img img:nth-child(2){
+
+.in_img img:nth-child(2) {
     position: absolute;
-    width: 4rem;
+    width: 6rem;
     left: 9.5rem;
     top: 4rem;
 }
-.in_img img:nth-child(3){
+
+.in_img img:nth-child(3) {
     position: absolute;
-    width: 7.5rem;
+    width: 9rem;
     left: 8rem;
     top: 7rem;
 }
 
-/* Flex Section */
-.flex{
-    display: flex;
-    justify-content: space-between;
+.btn {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    padding: 7px;
+    background-color: rgb(94, 17, 94);
+    border-radius: 5px;
+    color: #999797;
 }
 
+i #icon {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    /* padding: 7px; */
+    /* background-color: rgb(94, 17, 94); */
+    /* border-radius: 5px; */
+    /* color: #999797; */
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.text__intro {
+    position: absolute;
+    top: 30%;
+    /* font-family: ; */
+}
+
+.intro {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.capitalize {
+    text-transform: uppercase;
+}
+
+/* p .intro .capitalize {} */
+
+
+
+.second {
+    /* background-image: url('./Images/background-image.jpg'); */
+    background-color: black;
+    background-size: cover;
+    background-position: bottom;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.design--end {
+    position: absolute;
+    top: 5%;
+    left: 3px;
+    color: #eae5e5;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    bottom: 0;
+}
+
+.ticket-container {
+    /* background-color: #f7f7f7; */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    background-color: rgb(97, 18, 97);
+}
+
+.ticket-container p {
+    font-size: 12px;
+}
+
+.third {
+    background-image: url('./Images/Richard_richie.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.third--start {
+    position: absolute;
+    top: 5%;
+    left: 3px;
+    color: #eae5e5;
+    text-transform: uppercase;
+    font-size: 20px;
+}
