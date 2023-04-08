@@ -5,7 +5,10 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Space Mono', monospace;
-    ;
+}
+
+html {
+    background-color: rgb(26, 25, 25);
 }
 
 header {
@@ -92,7 +95,7 @@ p {
 
 .second {
     /* background-image: url('./Images/background-image.jpg'); */
-    background-color: black;
+    background-color: rgb(26, 25, 25);
     background-size: cover;
     background-position: bottom;
     height: 300px;
@@ -135,7 +138,8 @@ p {
 }
 
 .third {
-    background-image: url('./Images/Richard_richie.jpg');
+    /* background-image: url('./Images/Richard_richie.jpg'); */
+    background-color: rgb(26, 25, 25);
     background-size: cover;
     background-position: center;
     height: 670px;
@@ -150,8 +154,229 @@ p {
 .third--start {
     position: absolute;
     top: 5%;
-    left: 3px;
+    left: 10px;
     color: #eae5e5;
     text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.third-image {
+    position: absolute;
+    width: 95%;
+    top: 15%;
+    display: block;
+}
+
+.third--text {
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+}
+
+.third--footer {
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    text-decoration: none;
+}
+
+.fourth {
+    background-image: url('./Images/Brisbane.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.fourth--header {
+    position: absolute;
+    font-size: 22px;
+    top: 15px;
+    left: 5px;
+    text-decoration: none;
+}
+
+.fourth--footer {
+    position: absolute;
+    bottom: 15px;
+    left: 120px;
+}
+
+.fifth {
+    background-color: rgb(250, 249, 249);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.fifth--text {
+    position: absolute;
     font-size: 20px;
+    font-weight: bolder;
+    color: rgb(26, 25, 25);
+    top: 50px;
+}
+
+.form-header {
+    padding: 10px 50px;
+    position: absolute;
+    top: 60%;
+    background-color: rgb(97, 18, 97);
+}
+
+.sixth {
+    background-color: rgb(26, 25, 25);
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.sixth--header {
+    color: rgb(250, 249, 249);
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    top: 50px;
+}
+
+.sixth-image {
+    position: absolute;
+    width: 95%;
+    top: 15%;
+    display: block;
+}
+
+.seventh {
+    background-color: rgb(26, 25, 25);
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.seventh--header {
+    font-weight: bolder;
+    position: absolute;
+    left: 45%;
+    top: 10px;
+}
+
+.seventh--text {
+    font-size: 12px;
+}
+
+.a {
+    font-size: 12px;
+    position: absolute;
+    top: 47px;
+    display: block;
+}
+
+.b {
+    font-size: 12px;
+    position: absolute;
+    top: 180px;
+    display: block;
+}
+
+.c {
+    font-size: 12px;
+    position: absolute;
+    top: 300px;
+    display: block;
+}
+
+.d {
+    font-size: 12px;
+    position: absolute;
+    top: 420px;
+    display: block;
+}
+
+.e {
+    font-size: 12px;
+    position: absolute;
+    top: 540px;
+    display: block;
+}
+
+.eighth {
+    background-color: rgb(26, 25, 25);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    /* text-align: center; */
+    position: relative;
+}
+
+.form-container {
+    height: 80%;
+    width: 75%;
+    background-color: rgb(137, 133, 133);
+}
+
+.form-name {
+    position: absolute;
+    top: 25%;
+}
+
+.form-phone {
+    position: absolute;
+    top: 35%;
+}
+
+input {
+    width: 270px;
+    display: block;
+    padding: 6px;
+}
+
+.eighth--form {
+    background: linear-gradient(90deg, rgb(97, 18, 97) 0%, rgb(191, 51, 212) 100%);
+}
+
+.add-message-icon {
+    top: 45%;
+    position: absolute;
+}
+
+.eighth--form {
+    position: absolute;
+    top: 50%;
+    color: #eae5e5;
+}
+
+.form-terms {
+    position: absolute;
+    bottom: 65px;
+    font-size: 12px;
+    padding-right: 40px;
+    color: #fff;
 }
