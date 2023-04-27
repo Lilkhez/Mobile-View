@@ -8,7 +8,7 @@
 }
 
 html {
-    background-color: rgb(26, 25, 25);
+    background-color: #E9D5D5;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color:  #E9D5D5;
     text-align: center;
 }
 
@@ -49,13 +49,14 @@ header {
 }
 
 .btn {
+    
     position: absolute;
     top: 10%;
     left: 0;
     padding: 7px;
-    background-color: rgb(94, 17, 94);
+    background-color: #44184B;
     border-radius: 5px;
-    color: #999797;
+    color: #E9D5D5;
 }
 
 i #icon {
@@ -102,7 +103,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color:  #E9D5D5;
     text-align: center;
     position: relative;
 }
@@ -111,7 +112,7 @@ p {
     position: absolute;
     top: 5%;
     left: 3px;
-    color: #eae5e5;
+    color: #E9D5D5;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -142,11 +143,11 @@ p {
     background-color: rgb(26, 25, 25);
     background-size: cover;
     background-position: center;
-    height: 670px;
+    height: 480px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #E9D5D5;
     text-align: center;
     position: relative;
 }
@@ -155,7 +156,7 @@ p {
     position: absolute;
     top: 5%;
     left: 10px;
-    color: #eae5e5;
+    color:  #E9D5D5;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: bolder;
@@ -171,11 +172,12 @@ p {
 .third--text {
     font-size: 12px;
     position: absolute;
-    top: 50%;
+    top: 65%;
 }
 
 .third--footer {
     position: absolute;
+    font-size: 17px;
     bottom: 15px;
     left: 5px;
     text-decoration: none;
@@ -189,7 +191,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #E9D5D5;
     text-align: center;
     position: relative;
 }
@@ -216,7 +218,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color:  #E9D5D5;
     text-align: center;
     position: relative;
 }
@@ -244,7 +246,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #E9D5D5;
     text-align: center;
     position: relative;
 }
@@ -272,7 +274,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color:  #E9D5D5;
     text-align: center;
     position: relative;
 }
@@ -331,7 +333,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #E9D5D5;
     /* text-align: center; */
     position: relative;
 }
@@ -339,16 +341,18 @@ p {
 .form-container {
     height: 80%;
     width: 75%;
-    background-color: rgb(137, 133, 133);
+    background-color:  #E9D5D5;
 }
 
 .form-name {
     position: absolute;
+    color: black;
     top: 25%;
 }
 
 .form-phone {
     position: absolute;
+    color: black;
     top: 35%;
 }
 
@@ -363,6 +367,7 @@ input {
 }
 
 .add-message-icon {
+    color: black;
     top: 45%;
     position: absolute;
 }
@@ -370,7 +375,7 @@ input {
 .eighth--form {
     position: absolute;
     top: 50%;
-    color: #eae5e5;
+    color:  #E9D5D5;
 }
 
 .form-terms {
